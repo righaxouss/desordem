@@ -10,12 +10,13 @@
         }
 
         body {
+            
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             width: 100%;
-            background: #222431;
+            background:#DA95A1;
             padding: 40px 20px;
         }
 
@@ -29,17 +30,25 @@
         }
 
         main {
+          
+            opacity: 100%;
             display: grid;
             grid-template-columns: 45% 55%;
             place-items: center;
-            background: linear-gradient(to right, #DA95A1, #291537);
+            background:#DA95A1;
             width: min(700px, 95%);
             border-radius: 20px;
         }
 
         /* Left Side */
 
+
+
+   
+
+
         .left-side {
+          
             height: 100%;
             width: 100%;
             background-image: url(imagens/body.jpg);
@@ -47,7 +56,7 @@
             background-size: cover;
             background-position: center;
             pointer-events: none;
-            border-radius: 20px 0 0 20px;
+            border-radius: 20px ;
         }
 
         /* Right Side */
@@ -89,7 +98,7 @@
 
         .btn-group .btn:hover {
             background-color: #DA95A1;
-            color: #eee;
+            color: white;
         }
 
         .btn img {
@@ -109,6 +118,7 @@
         /* OR */
 
         .or {
+            color: white;
             position: relative;
             text-align: center;
             margin-bottom: 24px;
@@ -123,7 +133,7 @@
             top: 50%;
             width: 40%;
             height: 1px;
-            background: #000;
+            background: white;
         }
 
         .or::before {
@@ -137,6 +147,7 @@
         /* Inputs and Labels */
 
         input {
+           
             width: 100%;
             padding: 12px 20px;
             border: none;
@@ -149,9 +160,7 @@
             transition: all 0.5s;
         }
 
-        input:focus {
-            border: 2px solid #000;
-        }
+      
 
         input:-webkit-autofill,
         input:-webkit-autofill:hover,
@@ -163,7 +172,8 @@
         }
 
         label {
-            font-weight: 600;
+            
+            font-weight: bolder;
             font-size: 0.9rem;
         }
 
@@ -178,14 +188,14 @@
            border: none;
            color: white;
             border-radius: 5px;
-            background-color: black;
+            background-color: #481835;
             cursor: pointer;
             transition: all 0.5s;
         }
 
         .login-btn:hover {
             background-color: #363636;
-            color: #eee;
+            color: white;
         }
 
         /* Links */
@@ -213,4 +223,12 @@
 
         a:hover {
             color: rgb(13, 133, 185);
+        }
+
+        h2{
+            color: #DA95A1;
+            text-align: center;
+            font-size: 1.1em;
+
+
         }
