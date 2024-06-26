@@ -13,7 +13,7 @@
         body {
             overflow: hidden;
            
-            background: #180020;
+            background: #030003;
           
             font-family: "Varela Round", sans-serif;
             display: flex;
@@ -63,7 +63,7 @@
 
         .form-input input:focus {
             outline: 0;
-            border-color: #5e047c;
+            border-color: #030003
         }
 
         .form-input.success input {
@@ -90,7 +90,7 @@
 
         .input-container{
             cursor: pointer;
-            background-color: #180020;
+            background-color: #030003;
             border: none;
             border-radius: 5px;
             color: #fff;
@@ -103,6 +103,6 @@
         }
         
         .input-container:hover{
-            background-color: #2f043d;
+            background-color: #030003;
 
         }
