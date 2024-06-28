@@ -3,10 +3,15 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="style.css">
-    <title>Desordem</title>
+    <title>Capital Sinner Boys</title>
 
 <style>
 
+.trestresimg{
+
+display: block;
+
+}
 
 
 </style>
@@ -14,38 +19,44 @@
 </head>
 
 <body>
-    <div class="form-container animate__animated animate__fadeInUp">
-        <form id="form" class="form-section">
-            <h2>DESORDEM</h2>
+    <center>
 
-            <div class="form-input">
-                <label  for="email">Email</label>
-                <input type="text" id="email" placeholder="Enter Email" />
-                
-            </div>
+        <div class="trestresimg">
+            <img src="imagens/33.webp" alt="" width="300px">
+        </div>
 
-            <div class="form-input">
-                <label for="username">Username</label>
-                <input type="text" id="login" name="username" placeholder="Enter Username" />
-                
-            </div>
-           
-            <div class="form-input">
-                <label for="password">Password</label>
-                <input type="password" id="senha" placeholder="Enter Password" />
-                
-            </div>
-           
-            
-            <div >
-                <input class="input-container" type="submit" value="Confirm" onclick="logar(); return false">
-            </div>
-
-            
-
-        </form>
-    </div>
-
+    </center>
+<center>
+    
+        <div class="form-container animate__animated animate__fadeInUp">
+            <form id="form" class="form-section">
+                <h2>Capital Sinner Boys</h2>
+    
+    
+    
+                <div class="form-input">
+                    <label for="username">Username</label>
+                    <input type="text" id="login" name="username" placeholder="Enter Username" />
+    
+                </div>
+    
+                <div class="form-input">
+                    <label for="password">Password</label>
+                    <input type="password" id="senha" placeholder="Enter Password" />
+    
+                </div>
+    
+    
+                <div >
+                    <input class="input-container" type="submit" value="Confirm" onclick="logar(); return false">
+                </div>
+    
+    
+    
+            </form>
+        </div>
+    
+</center>
 
 
 
@@ -55,11 +66,11 @@
 
         function logar(){
 
-            var email = document.getElementById('email').value;
+           
             var login = document.getElementById('login').value;
             var senha = document.getElementById('senha').value;
 
-            if(login == "1312" && senha == "1312"  && email == "1312"){
+            if(login == "1312" && senha == "1312" ){
                 
                 location.href = "home.html";
             }else{

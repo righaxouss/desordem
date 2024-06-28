@@ -18,7 +18,7 @@
         }
 
         body {
-            overflow: hidden;
+           
            
             background: #030003;
           
@@ -27,50 +27,6 @@
             
             
         }
-
-        #burguer{
-font-size: 2em;
-color: white;
-display: block;
-text-align: left;
-
-cursor: pointer;
-}
-
-#burgur:hover{
-
-color: white;
-}
-
-menu{ 
-display: none;
-padding-top: 10px;
-padding-bottom: 10px;
-}
-
-
-menu > ul{
-padding: 10px;
-list-style-type: none;
-
-}
-
-
-menu > ul > li > a{
-font-weight: bold;
-width: 60px;
-text-align: left;
-padding: 10px;
-text-decoration: none;
-color: white;
-
-
-}
-
-menu > ul > li > a:hover{
-background-color: rgba(128, 128, 128, 0.24);
-
-}
 
         h1{
             padding-top: 30px;
@@ -93,7 +49,9 @@ text-align: center;
         }
 
 .conteudo{
-    display: flex;
+   
+
+   
     padding: 10px;
 margin: 50px;
     
@@ -104,57 +62,80 @@ margin: 50px;
    
 }
 
-.pmaior{
+.conteudo > center > img{
+margin: 20px;
+width: 350px;
 
+
+}
+
+
+
+
+.pmaior{
+font-weight: bolder;
 font-size: 1.3em;
 }
 
+.pmenor{
+text-align: 1px;
+
+}
+
+.politicas > a{
+color: white;
+
+
+}
+
+.politicas > a > p{
+background-color: white;
+width: 20%;
+}
     </style>
 
 </head>
 <body>
     
-    <i id="burguer" class="material-symbols-outlined"  onclick="clickMenu()">menu</i>
-    <menu id="itens" >
-        <ul>
-            
-           
-            <li>
-                <a href="">Receitas</a>
-            </li>
-            <br>
-            <li>
-                <a href="">Outros</a>
-            </li>
-           
+   
 
-        </ul>
-    </menu>
+    <center>
+
+        <div class="trestresimg">
+            <img src="imagens/33.webp" alt="" width="300px">
+        </div>
+
+    </center>
 
 
-    <h1>Capital Sinner Boys</h1>
-    <p class="pmaior">Sexy</p>
+    
+    
 
 
 <div class="conteudo">
    
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut dolorem consequuntur quos placeat libero laudantium doloribus autem aliquid et veniam! Quaerat architecto ex fugiat modi, sed magni totam laborum asperiores!
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste, molestiae sequi maiores id non fugit totam atque commodi at reiciendis deleniti recusandae, laborum laboriosam nihil aut dolorum. Modi, ex.
+   <center>
+       <a href=""><img src="imagens/blusapretacsb.webp" alt=""></a>
+       <p class="pmaior">Camiseta CSB Preta</p>
+       <p class="pmenor">R$ 119,00</p>
+       <br><br>
+       <br><br>
+       <a href=""><img src="imagens/blusabrancacsb.webp" alt=""></a>
+       <p class="pmaior">Camiseta CSB Branca</p>
+       <p class="pmenor">R$ 119,00</p>
        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat amet, repudiandae quod deleniti eum molestias omnis cumque ratione quaerat exercitationem praesentium iusto voluptas eaque odit expedita optio sint, dolorem asperiores.
-    </p>
-    
+   </center>
 </div>
 
 
-<div class="conteudo">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut dolorem consequuntur quos placeat libero laudantium doloribus autem aliquid et veniam! Quaerat architecto ex fugiat modi, sed magni totam laborum asperiores!
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste, molestiae sequi maiores id non fugit totam atque commodi at reiciendis deleniti recusandae, laborum laboriosam nihil aut dolorum. Modi, ex.
-       
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat amet, repudiandae quod deleniti eum molestias omnis cumque ratione quaerat exercitationem praesentium iusto voluptas eaque odit expedita optio sint, dolorem asperiores.
-    </p></div>
+<div class="politicas">
+    <a href="">
+        <p>
+            POLÍTICAS DA LOJA
+        </p>
+    </a>
+
+</div>
 
 
     <script>
